@@ -1,13 +1,47 @@
 # 💫 About Me:
- Hi, I’m [Lucky Kawalkar ]  <br><br>I’m currently working on:  <br>Building interactive dashboards using Power BI and Python (Pandas, Matplotlib, Seaborn).  <br><br>I’m looking to collaborate on:<br>Data analysis, visualization projects, and open-source datasets.  <br><br>I’m looking for help with:<br>Improving my SQL query optimization and learning more about advanced data visualization techniques.<br><br>I’m currently learning:  <br>Machine learning techniques for predictive analytics and advanced SQL optimization.  <br><br>Ask me about:<br>Data wrangling, exploratory and statistical data analysis (EDA), and deriving actionable insights from complex datasets.  <br><br>Fun fact:  <br>I love turning raw data into meaningful stories — every dataset has a hidden narrative waiting to be discovered!  <br>
+Summary :
 
+This project analyzes Spotify music data to uncover trends in listener preferences, track popularity, and audio features. It explores relationships between attributes like tempo, danceability, and energy to understand what makes a song successful.
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/lucky kawalkar) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Kawalkkar) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/lucky-dayaram-kawalkar-608729266/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:luckykawalkar1234@gmail.com) 
+Overview:
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+Using data visualization and statistical analysis, the project provides insights into music trends and artist performance on Spotify.
 
-[![](https://visitcount.itsvg.in/api?id=luck2001&icon=0&color=0)](https://visitcount.itsvg.in)
+Problem Statement:
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+With millions of tracks on Spotify, it’s challenging to identify the factors that influence song popularity. This project aims to analyze Spotify’s dataset to determine which musical and contextual features contribute most to a track’s success.
+
+Tools and Technologies Used (SQL):
+
+MySQL  – for storing, querying, and managing Spotify dataset.
+
+SQL Queries – used to extract insights (e.g., most popular artists, average tempo by genre).
+
+MySQL Workbench  – for database design, query execution, and visualization.
+
+Methodology:
+
+Data Collection
+Imported Spotify dataset (CSV or JSON) containing track information such as artist, genre, tempo, energy, and popularity into an SQL database.
+
+Database Design
+Created tables and defined relationships between entities (e.g., tracks, artists, albums, genres).
+Ensured data normalization and integrity through primary and foreign keys.
+
+Data Cleaning & Preprocessing
+Removed duplicates and handled missing or inconsistent values using SQL queries.
+Converted data types and standardized categorical fields for analysis.
+
+Data Analysis Using SQL
+Executed queries to identify trends such as:
+Most popular artists and genres.
+Correlation between features (e.g., energy vs. danceability).
+Average song characteristics by year or genre.
+
+Future Work
+
+Integration of Real-Time Data: Connect directly to Spotify’s API to analyze live trends and newly released songs.
+
+Predictive Modeling: Use machine learning to predict a song’s popularity based on its audio features.
+
+User Behavior Analysis: Incorporate user listening patterns to understand audience preferences across regions.
